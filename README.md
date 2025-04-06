@@ -1,3 +1,7 @@
+# portfolio-2
+
+My portfolio designed with React. Bootstrap, and SASS.>>>>>>> a40a8169593bbc2141748fcc439e26dc9b9dd03d
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
