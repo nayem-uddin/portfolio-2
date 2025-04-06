@@ -1,0 +1,38 @@
+@use "./custom" as *;
+.cover {
+  background: linear-gradient(to right, $purple, $red);
+  img {
+    width: 100%;
+    @include media-breakpoint-up(sm) {
+      width: 80%;
+    }
+  }
+  .welcome {
+    margin-left: 10%;
+    margin-top: 10%;
+    @include media-breakpoint-up(sm) {
+      margin-top: 25%;
+      transform: translateY(-25%);
+    }
+
+    .heading {
+      color: rgb(228, 222, 214);
+      font-family: "Winky Sans", sans-serif;
+      @include media-breakpoint-up(md) {
+        font-size: 3rem;
+      }
+      @include media-breakpoint-up(lg) {
+        font-size: 5rem;
+      }
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+      }
+      @include media-breakpoint-up(lg) {
+        font-size: 3rem;
+      }
+    }
+  }
+}
