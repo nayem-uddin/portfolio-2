@@ -1,0 +1,34 @@
+@use "../partials/custom" as *;
+.inst-container {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  @include media-breakpoint-up(md) {
+    width: 50%;
+  }
+  .logo {
+    width: 50%;
+    height: 50%;
+    @include media-breakpoint-up(lg) {
+      width: 20%;
+      padding-right: 10px;
+    }
+  }
+  p {
+    margin: 0;
+    font-size: larger;
+
+    @include media-breakpoint-down(sm) {
+      // font-size: initial;
+      font-size: 0.9rem;
+    }
+  }
+  .info {
+    .name {
+      font-size: 15px;
+      @include media-breakpoint-up(sm) {
+        font-size: 2rem;
+      }
+    }
+  }
+}

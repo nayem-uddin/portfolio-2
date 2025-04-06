@@ -1,0 +1,5 @@
+@mixin anim($color1, $color2) {
+  background-image: linear-gradient(to right, $color1, $color2);
+  color: transparent;
+  background-clip: text;
+}

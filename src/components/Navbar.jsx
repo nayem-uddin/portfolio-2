@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-md sticky-top nav-design">
+      <nav className="navbar navbar-expand-md fixed-top nav-design">
         <div className="container-fluid">
           <div class="navbar-brand"></div>
           {/* to shift the toggle button to the right*/}
@@ -24,7 +24,7 @@ export default function Navbar() {
           >
             <div className="navbar-nav">
               <NavLink link={`#`} text={`Home`} />
-              <NavLink link={`#`} text={`Education`} />
+              <NavLink link={`#education`} text={`Education`} />
               <NavLink link={`#`} text={`Skills`} />
               <NavLink link={`#`} text={`Certificates`} />
               <NavLink link={`#`} text={`Profiles`} />

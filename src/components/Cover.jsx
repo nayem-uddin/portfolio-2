@@ -8,7 +8,7 @@ export default function Cover() {
             <h1 className="fw-bold heading">Welcome to my Portfolio.</h1>
 
             <p className="text-white-50 lead">
-              Thanks for visiting. You will find my details here.
+              I am Nayem, a passionate web developer and learner.
             </p>
           </div>
         </div>
