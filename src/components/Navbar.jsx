@@ -26,7 +26,7 @@ export default function Navbar() {
               <NavLink link={`#`} text={`Home`} />
               <NavLink link={`#education`} text={`Education`} />
               <NavLink link={`#skills`} text={`Skills`} />
-              <NavLink link={`#`} text={`Certificates`} />
+              <NavLink link={`#certificates`} text={`Certificates`} />
               <NavLink link={`#`} text={`Profiles`} />
               <NavLink link={`#`} text={`Projects`} />
               <NavLink link={`#`} text={`Contact`} />
