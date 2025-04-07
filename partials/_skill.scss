@@ -1,6 +1,9 @@
 @use "../partials/custom" as *;
 #skills {
   height: 350px;
+  @include media-breakpoint-down(sm) {
+    height: 280px;
+  }
   overflow: hidden;
   justify-content: center;
   align-items: center;

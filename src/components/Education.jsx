@@ -7,11 +7,11 @@ export const Education = () => {
       <Heading headline={"Education"} />
       <div
         id="carouselExampleInterval"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="5000">
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="5000">
             <Institution
               logo="institutions/uni-logo.png"
               name={"Khulna University of Engineering & Technology"}
@@ -19,7 +19,7 @@ export const Education = () => {
               result={"CGPA: 3.16/4.00"}
             />
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
+          <div className="carousel-item" data-bs-interval="5000">
             <Institution
               logo="institutions/college-logo.png"
               name={"Government Science College"}
@@ -27,7 +27,7 @@ export const Education = () => {
               result={"GPA: 4.58/5.00"}
             />
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
+          <div className="carousel-item" data-bs-interval="5000">
             <Institution
               logo="institutions/school-logo.webp"
               name={"A.K. School and College"}
@@ -37,22 +37,28 @@ export const Education = () => {
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleInterval"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleInterval"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>

@@ -11973,6 +11973,11 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 575.98px) {
+  #skills {
+    height: 280px;
+  }
+}
 #skills .set {
   animation: carousel 14s linear infinite;
 }
@@ -12001,6 +12006,27 @@ textarea.form-control-lg {
     transform: translateX(-1650px);
   }
 }
+.cert {
+  width: 300px;
+  height: 250px;
+  margin: auto;
+}
+@media (min-width: 576px) {
+  .cert {
+    width: 60%;
+    height: auto;
+  }
+  .cert img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .cert {
+    width: 40%;
+  }
+}
+
 * {
   max-width: 100%;
 }

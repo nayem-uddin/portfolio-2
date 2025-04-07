@@ -5,7 +5,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-md fixed-top nav-design">
         <div className="container-fluid">
-          <div class="navbar-brand"></div>
+          <div className="navbar-brand"></div>
           {/* to shift the toggle button to the right*/}
           <button
             className="navbar-toggler"

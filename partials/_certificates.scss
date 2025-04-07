@@ -1,0 +1,18 @@
+@use "../partials/custom" as *;
+.cert {
+  width: 300px;
+  height: 250px;
+  margin: auto;
+  @include media-breakpoint-up(sm) {
+    width: 60%;
+    // height: fit-content;
+    height: auto;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    width: 40%;
+  }
+}
