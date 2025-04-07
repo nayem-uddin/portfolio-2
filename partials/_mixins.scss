@@ -1,5 +1,11 @@
-@mixin anim($color1, $color2) {
-  background-image: linear-gradient(to right, $color1, $color2);
+@mixin anim($color1, $color2, $color3, $color4) {
+  background-image: linear-gradient(
+    to right,
+    $color1 20%,
+    $color2 30%,
+    $color3 70%,
+    $color4 80%
+  );
   color: transparent;
   background-clip: text;
 }

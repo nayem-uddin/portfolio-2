@@ -2,7 +2,7 @@
 .inst-container {
   display: flex;
   max-width: 90%;
-  margin: auto;
+  margin: 0 auto;
   @include media-breakpoint-up(md) {
     width: 50%;
   }

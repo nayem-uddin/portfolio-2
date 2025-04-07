@@ -1,12 +1,15 @@
 @use "./mixins" as *;
 .headline {
-  @include anim(black, red);
+  @include anim(black, red, red, black);
   background-size: 300% auto;
-  animation: textGradient 3s linear infinite alternate;
+  animation: textGradient 5s ease-in-out infinite alternate;
 }
 
 @keyframes textGradient {
-  100% {
+  from {
+    background-position: 0%;
+  }
+  to {
     background-position: 100%;
   }
 }

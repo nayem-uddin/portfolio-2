@@ -11916,7 +11916,7 @@ textarea.form-control-lg {
 .inst-container {
   display: flex;
   max-width: 90%;
-  margin: auto;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .inst-container {
@@ -11952,16 +11952,53 @@ textarea.form-control-lg {
 }
 
 .headline {
-  background-image: linear-gradient(to right, black, red);
+  background-image: linear-gradient(to right, black 20%, red 30%, red 70%, black 80%);
   color: transparent;
   background-clip: text;
   background-size: 300% auto;
-  animation: textGradient 3s linear infinite alternate;
+  animation: textGradient 5s ease-in-out infinite alternate;
 }
 
 @keyframes textGradient {
-  100% {
+  from {
+    background-position: 0%;
+  }
+  to {
     background-position: 100%;
+  }
+}
+#skill {
+  height: 350px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+#skill .set {
+  animation: carousel 14s linear infinite;
+}
+@media (max-width: 575.98px) {
+  #skill .set {
+    animation: carousel 10s linear infinite forwards;
+  }
+}
+#skill .set .skill {
+  height: 100px;
+  width: 150px;
+}
+#skill .set .skill-logo img {
+  min-height: 100px;
+  max-height: 100px;
+}
+#skill .set:hover {
+  animation-play-state: paused;
+}
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1650px);
   }
 }
 * {
