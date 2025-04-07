@@ -29,7 +29,7 @@ export const Education = () => {
           </div>
           <div className="carousel-item" data-bs-interval="5000">
             <Institution
-              logo="institutions/school-logo.webp"
+              logo="institutions/school-logo.jpg"
               name={"A.K. School and College"}
               degree={"Secondary School Certificate"}
               result={"GPA: 5.00/5.00"}

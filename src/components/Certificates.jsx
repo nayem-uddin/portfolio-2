@@ -21,7 +21,7 @@ export default function Certificates() {
 
       <div
         id="carouselExampleInterval"
-        className="carousel slide"
+        className="carousel slide mt-3"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">

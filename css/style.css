@@ -11915,22 +11915,53 @@ textarea.form-control-lg {
 
 .inst-container {
   display: flex;
-  max-width: 90%;
+  width: 90%;
   margin: 0 auto;
+}
+@media (max-width: 575.98px) {
+  .inst-container {
+    height: 8rem;
+  }
 }
 @media (min-width: 768px) {
   .inst-container {
+    width: 70%;
+  }
+}
+@media (min-width: 992px) {
+  .inst-container {
     width: 50%;
+    height: 10rem;
   }
 }
 .inst-container .logo {
   width: 50%;
-  height: 50%;
+  margin: 0.8rem 0;
+}
+@media (max-width: 575.98px) {
+  .inst-container .logo {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 30%;
+  }
 }
 @media (min-width: 992px) {
   .inst-container .logo {
     width: 20%;
-    padding-right: 10px;
+  }
+}
+.inst-container .logo img {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 576px) {
+  .inst-container .logo img {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .inst-container .logo img {
+    width: 8rem;
   }
 }
 .inst-container p {
@@ -12017,13 +12048,16 @@ textarea.form-control-lg {
     height: auto;
   }
   .cert img {
-    width: 100%;
+    width: 90%;
     height: 100%;
+    margin: auto;
+    border: 1px solid gray;
   }
 }
 @media (min-width: 992px) {
   .cert {
     width: 40%;
+    height: 400px;
   }
 }
 
