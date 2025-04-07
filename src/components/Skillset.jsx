@@ -16,7 +16,7 @@ export const Skillset = () => {
     "VS code",
   ];
   return (
-    <div id="skill">
+    <div id="skills">
       <Heading headline={`Skills`} />
       <div className="mt-3 set d-flex">
         {names.map((name) => (
